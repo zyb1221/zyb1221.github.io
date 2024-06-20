@@ -1,0 +1,62 @@
+body {
+    font-size: 20px; /* 将字体大小设置为20px */
+    text-align: center; /* 居中文本 */
+    
+}
+header {
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgb(236, 217, 108); /* 设置导航栏背景颜色 */
+    color: rgb(203, 120, 79); /* 设置导航栏文字颜色为黑色 */
+  
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 80px;
+}
+nav ul li a {
+    text-decoration: none; /* 去掉超链接下划线 */
+    color: black; /* 设置默认链接颜色 */
+}
+nav ul li a:hover {
+    color: rgb(203, 120, 79); /* 鼠标悬停时链接颜色变为红色 */
+}
+
+.container1 {
+    background-color: #ccc; /* 设置容器背景颜色 */
+    margin: 20px auto; /* 设置上下20px，左右自动居中 */
+    padding: 20px; /* 设置容器内边距为20px */
+    width: 80%; /* 设置容器宽度为页面宽度的80% */
+    height: px; /* 设置容器高度为2000px */   
+}
+
+.container1 .text h2{
+    text-align: center; /* 将标题居中对齐 */
+    color:  black;
+}
+
+.container2 {
+    background-color: #f0f0f0; /* 设置容器背景颜色 */
+    margin: 20px auto; /* 设置上下20px，左右自动居中 */
+    padding: 20px; /* 设置容器内边距为20px */
+    width: 90%; /* 设置容器宽度为页面宽度的80% */
+    height: 6000px; /* 设置容器高度为2000px */
+}
+
+.container2 .text h2 {
+    text-align: center; /* 将标题居中对齐 */
+    color:  black;
+}
+
+.container2 .text p {
+    text-align: left; /* 将标题居中对齐 */
+    color: black;
+    margin: 20px auto;
+    text-indent: 2em;
+    width: 75%;
+}
